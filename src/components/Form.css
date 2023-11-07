@@ -1,0 +1,60 @@
+body{
+background: #373B44;  
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  
+  input[type="text"]
+  {
+    padding: 10px;
+    margin-left: 39px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  input[type="password"]{
+    padding: 10px;
+    margin-left: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] 
+  {
+    margin-bottom: 28px;
+    margin-top: 15px;
+  }
+  
+  button[type="submit"] {
+    background: #007BFF;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+ 
+
+  
